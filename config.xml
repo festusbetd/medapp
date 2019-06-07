@@ -31,7 +31,7 @@
     
     <allow-navigation href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <splash src="/images/splash.jpg" />
+    <splash src="/images/splash.png" />
     <icon src="/images/Medical_icons-09-512.png"  />
     <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
     <access origin="*" /> <!-- allow all pages like itunes and google play -->
