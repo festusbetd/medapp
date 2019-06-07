@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "co.ke.med"
+        versionCode="10" 
+        version   = "1.1.0">
+    <name>med</name>
+    <description>
+      Interview
+    </description>
+    <author href="https://med.co.ke" email="festusbet@gmail.com">
+        festus bett
+    </author>
+    <feature name="http://api.phonegap.com/1.0/geolocation" />
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+    <gap:platform name="android" />
+    <preference name='phonegap-version' value='cli-7.1.0' />
+
+    <preference name="exit-on-suspend" value="false" /> 
+    <preference name="permissions" value="INTERNET" />
+    <preference name="loadUrlTimeoutValue" value="700000" />
+      <preference name="exit-on-suspend" value="false" />
+  
+    <gap:plugin name="cordova-plugin-device" source="npm"/>  
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm"/>   
+    <gap:plugin name="cordova-plugin-geolocation" source="npm"/>
+    <gap:plugin name="cordova-plugin-network-information" source="npm" /> 
+    <gap:plugin name="cordova-plugin-media" source="npm"/>  
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    
+    <allow-navigation href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <splash src="/images/splash.jpg" />
+    <icon src="/images/Medical_icons-09-512.png"  />
+    <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
+    <access origin="*" /> <!-- allow all pages like itunes and google play -->
+</widget>
+
